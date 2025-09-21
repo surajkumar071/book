@@ -1,0 +1,45 @@
+
+public class book {
+
+    String title;
+    String author;
+    int price;
+    String publisher;
+    int discount;
+
+    void applydiscount() {
+        //System.out.println("Apply Discount calling...");
+        this.discount = this.price - 25;
+        System.out.println("Discounted price: " + discount);
+    }
+
+    void displaydetails() {
+        System.out.println(this.title);
+        System.out.println(this.author);
+        System.out.println(this.price);
+        System.out.println(this.publisher);
+    }
+
+    public static void main(String[] args) {
+        book b1 = new book();
+
+        b1.title = "arihant";
+        b1.author = "chandani";
+        b1.price = 125;
+        b1.publisher = "flipkart";
+        System.out.println();
+        b1.applydiscount();
+
+        book b2 = new book();
+
+        b2.title = "bhu";
+        b2.author = "raushani";
+        b2.price = 200;
+        b2.publisher = "meesho";
+        b2.applydiscount();
+
+        b1.displaydetails();
+
+        b2.displaydetails();
+    }
+}
