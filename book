@@ -24,7 +24,7 @@ public class book {
         book b1 = new book();
 
         b1.title = "arihant";
-        b1.author = "chandani";
+        b1.author = "suraj";
         b1.price = 125;
         b1.publisher = "flipkart";
         System.out.println();
