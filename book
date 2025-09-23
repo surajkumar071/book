@@ -26,7 +26,7 @@ public class book {
         b1.title = "arihant";
         b1.author = "suraj";
         b1.price = 125;
-        b1.publisher = "flipkart";
+        b1.publisher = "meesho";
         System.out.println();
         b1.applydiscount();
 
