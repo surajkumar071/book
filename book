@@ -1,5 +1,5 @@
 
-public class book  {
+public class {
 
     String title;
     String author;
